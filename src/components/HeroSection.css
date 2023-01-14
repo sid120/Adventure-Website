@@ -1,0 +1,78 @@
+video{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+
+}
+
+.hero-container{
+    /* background: url('../public/videos/video-1.mp4')  ;  */
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
+    object-fit: contain;
+}
+
+.background-video{
+height: 100%;
+width: 100%;
+float: left;
+top: 0;
+padding: none;
+position: fixed; 
+}
+
+.Adventure{
+    position: relative;
+    text-align: center;
+    padding: 2rem;
+    color: aqua;
+    height: 100vh;
+
+}
+
+.Adventure > h1 {
+    font-size: 100px;
+    padding: -0.5rem;
+    /* justify-content: center; */
+  }
+
+
+.Adventure > p {
+    font-size: 42px;
+    padding: 2rem;
+  }
+
+
+
+ .fa-play-circle{
+        margin-left: 0.5rem;
+}
+  
+@media screen and (max-width:960px) {
+    .Adventure > h1 {
+        font-size: 70px;
+        padding: -0.5rem;
+        /* justify-content: center; */
+        /* margin-top: -150px; */
+
+      }    
+}
+@media screen and (max-width:768px) {
+    .Adventure > h1 {
+        font-size: 50px;
+        padding: -0.5rem;
+        /* justify-content: center; */
+      }
+      .Adventure > p {
+        font-size: 36px;
+        padding: 1rem;
+      }
+    
+}
+
